@@ -1,6 +1,6 @@
 public class SongNode {
     Song song;
-    Node next;
+    SongNode next;
 
     public SongNode(Song data){
         this.song = data;

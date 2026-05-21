@@ -9,10 +9,10 @@ public class Song {
         this.album = album;
     }
 
-    public string toString(){
+    public String toString(){
         String toReturn = "Title: "+title;
-        toReturn+= "/nArtist: "+artist;
-        toReturn+="/nAlbum: "+album;
-        return toReturn
+        toReturn+= "\nArtist: "+artist;
+        toReturn+="\nAlbum: "+album;
+        return toReturn;
     }
 }
